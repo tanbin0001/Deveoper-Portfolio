@@ -68,7 +68,7 @@ nav ul {
 }
  /* main section */
 main{
-    background-color: #FFF8F3;
+    
     margin: 0 auto;
     max-width: 1140px;
     border-radius: 10px; 
@@ -76,15 +76,16 @@ main{
 
 /* about section styles */
 .about-me{
+    background-color: #FFF8F3;
     padding: 130px 150px;
     text-align: center;
 }
 
 .section-title{
-    font-weight: 70;
+    text-align: center;
+    font-weight: 700;
     font-size: 35px;
-  
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 .section-description{
     color: #615c5c;
@@ -102,4 +103,102 @@ main{
 .info-description{
     font-weight: 700;
     font-size: 15px;
+}
+
+/* what i do  */
+section{
+    margin-top: 130px;
+  
+}
+/* skils */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+
+}
+
+/* resume styles */
+.contant{
+   
+}
+
+.summary-container{
+    display: flex;
+    gap:70px;
+}
+.resume-title{
+    font-weight: 700;
+font-size: 20px;
+color: #474747;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.resume-sub-title{
+    font-weight: 700;
+    font-size: 15px;
+    color: #474747;
+
+}
+.duration{
+    font-weight: 600;
+font-size: 15px;
+color: #757575;
+margin-bottom: 20px;
+}
+.resume-description{
+    font-weight: 400;
+font-size: 13px;
+color: #757575;
+margin-bottom: 20px;
+}
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
+
+ }
+
+ /* contact section styles */
+ .contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+ }
+ .contact .section-title{
+    text-align: left;
+ }
+.contact input[type="text"],input[type="email"],textarea {
+    margin-bottom: 24px;
+    width: 100%;
+    padding:18px 30px;
+    border: 0;
+}
+
+.contact input {
+    height: 64px;
+}
+.contact-description{
+    margin-bottom: 10px ;
+}
+.contact a {
+    text-decoration: none;
+    
 }
